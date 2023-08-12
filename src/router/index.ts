@@ -20,4 +20,13 @@ const router = createRouter({
   ]
 })
 
+// 路由前置守卫，验证用户身份，检查权限。
+// router.beforeEach((to, from, next) => {
+// if (userlogin) {
+//   next()
+// } else {
+//   next('/login')
+// }
+// })
+
 export default router
