@@ -7,7 +7,19 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    copy: typeof import('./src/components/Exercise1-12 copy.vue')['default']
+    E: typeof import('./src/components/e.vue')['default']
     ElButton: typeof import('element-plus/es')['ElButton']
+    Exercise102: typeof import('./src/components/Exercise1-02.vue')['default']
+    Exercise103: typeof import('./src/components/Exercise1-03.vue')['default']
+    Exercise104: typeof import('./src/components/Exercise1-04.vue')['default']
+    Exercise105: typeof import('./src/components/Exercise1-05.vue')['default']
+    Exercise106: typeof import('./src/components/Exercise1-06.vue')['default']
+    Exercise107: typeof import('./src/components/Exercise1-07.vue')['default']
+    Exercise110: typeof import('./src/components/Exercise1-10.vue')['default']
+    Exercise112: typeof import('./src/components/Exercise1-12.vue')['default']
+    Exercise206: typeof import('./src/components/Exercise2-06.vue')['default']
+    Greeting: typeof import('./src/components/Greeting.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     IconCommunity: typeof import('./src/components/icons/IconCommunity.vue')['default']
     IconDocumentation: typeof import('./src/components/icons/IconDocumentation.vue')['default']
